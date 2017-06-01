@@ -1,0 +1,17 @@
+/* Custom css goes here */
+
+.last-child-no-bb:last-child {
+    border-bottom: none;
+}
+
+.top25 {
+    top: 25%;
+}
+
+.effect-reveal {
+    transition: opacity .15s ease-in;
+}
+
+.full-height {
+    min-height: calc(100vh - 350px);
+}

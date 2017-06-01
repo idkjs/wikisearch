@@ -1,0 +1,50 @@
+{
+    "name": "freecodecamp-wiki-search",
+    "version": "1.0.0",
+    "description": "Functional CSS/Tachyons, Webpack, Babel Starter",
+    "main": "src/app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "npm run browsersync",
+        "build": "webpack --config webpack.config.js --debug --progress && rm ./dist/tachyons.js",
+        "clean": "rm -rf ./dist",
+        "browsersync": "node bin/server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/idkjs/fcc-wiki-websync.git"
+    },
+    "keywords": [
+        "tachyons",
+        "webpack",
+        "freecodecamp",
+        "ramda",
+        "wikipedia",
+        "browsersync"
+    ],
+    "author": "Garren Smith <garren@redcometlabs.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/tachyons-css/fcc-wiki-websync/issues"
+    },
+    "homepage": "https://github.com/tachyons-css/fcc-wiki-websync#readme",
+    "dependencies": {
+        "babel-core": "^6.18.0",
+        "babel-loader": "^6.2.7",
+        "babel-preset-es2015": "^6.18.0",
+        "babel-preset-stage-0": "^6.16.0",
+        "browser-sync": "^2.17.5",
+        "bs-fullscreen-message": "^1.1.0",
+        "copy-webpack-plugin": "^4.0.0",
+        "css-loader": "^0.25.0",
+        "extract-text-webpack-plugin": "^1.0.1",
+        "jquery": "^3.2.1",
+        "ramda": "^0.24.0",
+        "strip-ansi": "^3.0.1",
+        "style-loader": "^0.13.1",
+        "tachyons": "^4.5.4",
+        "webpack": "^1.13.3",
+        "webpack-dev-middleware": "^1.8.4",
+        "webpack-dev-server": "^1.16.2"
+    }
+}
