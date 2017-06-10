@@ -1,8 +1,7 @@
 
 # FreeCodeCamp Wikipedia Search Code Challenge
 
-- Using: ["tachyons css", "webpack","freecodecamp","ramda", "wikipedia", "browsersync"]
-
+https://www.freecodecamp.com/challenges/build-a-wikipedia-viewer
 ## Installation
 
     git clone git@github.com:idkjs/fcc-wiki-websync.git
